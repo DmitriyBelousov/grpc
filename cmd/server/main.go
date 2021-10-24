@@ -1,11 +1,12 @@
 package main
 
 import (
+	"log"
+	"net"
+
 	"github.com/DmitriyBelousov/grpc/pkg/adder"
 	"github.com/DmitriyBelousov/grpc/pkg/api"
 	"google.golang.org/grpc"
-	"log"
-	"net"
 )
 
 func main(){
